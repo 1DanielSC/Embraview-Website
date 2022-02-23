@@ -24,17 +24,27 @@
 
 
     <h3> 
-
         <ul>
             <li> <a href="https://www.instagram.com/embraview/"> Instagram </a> </li>
             <li> Email: comercial@embraview.com.br </li>
             <li> WhatsApp: +55 (84) 9 9896-2666</li>
             <li> Telefone: +55 (84) 9 8802-0130</li>
         </ul>
-
     </h3>
 
+    <h2>Envie-nos uma mensagem!</h2>
+    <form method="post">
+        Nome: <br> <input type="text" required placeholder="Ex: Daniel" name="nome"> <br><br>
+        Sobrenome: <br> <input type="text" required placeholder="Ex: Silva dos Santos" name="sobrenome"> <br><br>
+        Telefone: <br> <input type="tel" placeholder="Ex:84911112222"> <br><br>
+        E-mail: <br> <input type="email" required placeholder="Ex: exemplo@gmail.com" name="email"> <br><br>
 
+        <label for="textBox">Mensagem:</label><br>
+        <textarea id="textBox" name="textBox" rows="4" cols="50" 
+        required placeholder="Digite a sua mensagem." maxlength="500"></textarea>
+        
+        <input type="submit">
+    </form>
 
 </body>
 </html>
