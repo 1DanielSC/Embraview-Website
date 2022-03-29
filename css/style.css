@@ -1,32 +1,42 @@
+p, li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+
+table, form, p, h2{
+    text-align: center;
+}
+
 body{
     background-color: antiquewhite;
 }
 
 h2{
     color: blue;
-    text-align: center;
     background-color:aqua;
 }
 
 p{
     color: black;
     background-color: antiquewhite;
-    text-align: center;
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;
-}
-
-li{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;
+    text-transform: initial;
 }
 
 
-table, form{
-    text-align: center;
+a{
+    text-decoration: none;
 }
 
+nav{
+    line-height:1.5;
+    font-size: 18px;
+}
+
+/* The descendant combinator makes our code hard to mantain */
+nav ul li{
+    margin-left: 25px;
+}
 
 .text_container{
     width: 70%;
